@@ -1,0 +1,155 @@
+
+  .pageContent{
+      display: flex;
+     padding-top: 3%;
+  }
+  body{
+    margin-left: 5%;
+  }
+  
+  .header{
+
+    padding-left: 37%;
+    padding-right: 20%;
+
+
+  }
+
+  .font_placement{
+   padding-left: .5%;
+   color: 	#6A5ACD;
+
+  }
+ 
+.insta-icon {
+    --icon-size:25px;
+    position: relative;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: radial-gradient( circle at 33% 100%, 
+                                #f3d373  4%, #f15245 30%,
+                                #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border-radius: 25%;
+}
+.insta-icon > span {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    right: 28px;
+    top: 30px;
+}
+.insta-icon:after,.insta-icon:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--icon-size)/1.5);
+    height: calc(var(--icon-size)/1.5);
+    border: calc(var(--icon-size)/15) solid #fff;
+    transform: translate(-50%, -50%);
+}
+.insta-icon:after {
+    width: calc(var(--icon-size)/3);
+    height: calc(var(--icon-size)/3);
+    border-radius: 50%;
+}
+.insta-icon:before {
+    border-radius: 25%;
+    padding-bottom: 10%;
+}
+
+.social_media{
+
+  padding-left: 30%;
+  
+  padding-top: 5%;
+}
+.socials{
+  padding-left: 38%;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 1%;
+}
+#title{
+  margin-left: 16%;
+  margin-top: 2%;
+  font-size: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-left: 10%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: 10%;
+}
+.column_space{
+  float: left;
+  width: 33.33%;
+  padding-left: 20%;
+  padding-top: .4%;
+  
+}
+
+// facebook 
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa {
+    padding: 3px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+
+    .fa:hover {
+    opacity: 0.7;
+    }
+
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+     .pageContent, .row, .column {
+        width: 50%;
+        height: 320px;
+      }
+     }
+
+
+

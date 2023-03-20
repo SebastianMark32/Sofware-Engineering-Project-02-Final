@@ -1,0 +1,49 @@
+<div class="navbar">
+  <mat-toolbar color="primary">
+    <span>
+      <div class="easter_egg">
+        <a routerLinkActive="active-link" routerLink="/easter" id="more_egg"> Egg</a>
+      </div>
+    </span>
+    <span>
+      <a routerLinkActive="active-link" routerLink="/home">
+        <span>NuPath</span>
+      </a>
+    </span>
+    <span>
+
+      <a routerLinkActive="active-link" routerLink="/" id="complicated" *ngIf="!isAuthenticated"> Log in</a>
+    </span>
+    <span>
+      <a href="" id="complicated" *ngIf="isAuthenticated" (click)="logout()"> Log out</a>
+    </span>
+    <span><a routerLinkActive="active-link" routerLink="/leaderboard">Leaderboard</a></span>
+
+    <div class="dropdown">
+      <button class="dropresource">Resources</button>
+      <div class="dropdown-content">
+        <a routerLinkActive="active-link" routerLink="/resources">Area around NCF</a>
+        <a routerLinkActive="active-link" routerLink="/facilities">Facilities</a>
+        <a routerLinkActive="active-link" routerLink="/faculty">Faculty</a>
+        <a routerLinkActive="active-link" routerLink="/dorm">Dorms</a>
+        <a routerLinkActive="active-link" routerLink="/ham">Hamilton cafe</a>
+        <a routerLinkActive="active-link" routerLink="/guide">Insider guide</a>
+        <a routerLinkActive="active-link" routerLink="/stuorg">Student Orginizations</a>
+        <a routerLinkActive="active-link" routerLink="/connectNo">Contact Novos</a>
+        <a routerLinkActive="active-link" routerLink="/catalyst">Catalyst </a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <button class="dropresource">Miscellaneous</button>
+      <div class="dropdown-content">
+        <a routerLinkActive="active-link" routerLink="/calendar">Calendar</a>
+        <a routerLinkActive="active-link" routerLink="/chat">Forum</a>
+        <a routerLinkActive="active-link" routerLink="/meme">Memes</a>
+        <!-- <a routerLinkActive="active-link" routerLink="/pictures">Pictures</a> -->
+      </div>
+    </div>
+
+  </mat-toolbar>
+</div>

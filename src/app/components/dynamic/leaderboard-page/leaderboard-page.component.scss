@@ -1,0 +1,64 @@
+.group {
+    width: 90%;
+    margin:auto;
+    background: lightgoldenrodyellow;
+    padding: 15px;
+    margin-top:12px;
+    justify-content: center;
+    border: 2px solid black/*transparent*/;
+    border-radius: 15px;
+}
+.star{
+    width: 75px;
+    height: 75x;
+    margin: auto;
+}
+.x{
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+.user{
+    font-size: 24px;
+    float: left;
+}
+
+.left{
+    margin: auto;
+    width: 64%;
+    float: left;
+    padding: 15px;
+    margin-top:12px;
+    background: lightpink;
+    border: 2px solid black/*transparent*/;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.right {
+    margin: auto;
+    width: 34%;
+    float: right;
+    padding: 15px;
+    margin-top:12px;
+    border: 2px solid black/*transparent*/;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    background: lightblue;
+}
+
+.log{
+    min-height: 105vh;
+    min-width: 100vw;
+    background-image: url('../../../../assets/Imgs/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-position-x: center;
+    margin: auto;
+}
+    

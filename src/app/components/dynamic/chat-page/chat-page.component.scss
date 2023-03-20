@@ -1,0 +1,19 @@
+mat-card{
+    margin-bottom:  1em;
+    font-size: 24px;
+    padding: 10px;
+    .button{
+        float: right;
+    }
+    .posttitle{
+        
+        font-weight: bold;
+    }
+    .postdata{
+        font-size: 16px;
+        font-style: italic;
+    }
+    .postbody{
+        margin-top: 1em;
+    }
+}

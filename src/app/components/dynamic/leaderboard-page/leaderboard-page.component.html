@@ -1,0 +1,35 @@
+<div class="left">
+    <h1>Leaderboard</h1>
+    <div *ngFor="let class of post$| async" class="group">
+        <p class="user"> {{class.username}}</p>
+        <div class="container">
+            <img src="../assets/Imgs/star.png" alt="Can't load" *ngIf="class.classAdd" class="star">
+            <img src="../assets/Imgs/x.png" alt="Can't load" *ngIf="!class.classAdd" class="x">
+            <img src="../assets/Imgs/star.png" alt="Can't load" *ngIf="class.dormChoice" class="star">
+            <img src="../assets/Imgs/x.png" alt="Can't load" *ngIf="!class.dormChoice" class="x">
+            <img src="../assets/Imgs/star.png" alt="Can't load" *ngIf="class.hamVisit" class="star">
+            <img src="../assets/Imgs/x.png" alt="Can't load" *ngIf="!class.hamVisit" class="x">
+            <img src="../assets/Imgs/star.png" alt="Can't load" *ngIf="class.facilVis" class="star">
+            <img src="../assets/Imgs/x.png" alt="Can't load" *ngIf="!class.facilVis" class="x">
+            <img src="../assets/Imgs/star.png" alt="Can't load" *ngIf="class.faculCheck" class="star">
+            <img src="../assets/Imgs/x.png" alt="Can't load" *ngIf="!class.faculCheck" class="x">
+        </div>
+    </div>
+</div>
+<div class="right">
+    <h2>Tasks</h2>
+    <h3>Task 1:</h3>
+    Pick classes and add them to the calendar!
+    <hr>
+    <h3>Task 2:</h3>
+    Visit the dorm page and select a dorm room!
+    <hr>
+    <h3>Task 3:</h3>
+    Visit the HAM page and see food options!
+    <hr>
+    <h3>Task 4:</h3>
+    Visit the facilities page, Bayfront, kayaking, Boat deck, Bike shop. Check out places to visit when on campus!
+    <hr>
+    <h3>Task 5:</h3>
+    Visit the faculty the page and write down the names of the faculty you want to talk to!
+</div>
